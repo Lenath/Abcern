@@ -1,13 +1,23 @@
+<!-- POŁĄCZENIE Z BAZĄ -->
+<?php include("connect.php"); ?>
+<!-- POBIERANIE DANYCH Z BAZY -->
+<?php $res = get_page("*", "main", $conn); ?>
 <!DOCTYPE html>
 <html lang="pl">
 	<head>
+		<!-- TYTUŁ STRONY -->
+		<title><?php echo $res["title"]; ?></title>
+		<!-- OPIS STRONY -->
+		<meta name="description" content="<?php echo $res["description"]; ?>">
+		<!-- SŁOWA KLUCZOWE -->
+		<meta name="keywords" content="<?php echo $res["keywords"]; ?>">
+		<!-- AUTOR -->
 		<title>Polcern Sp. z o. o.</title>
-		
-		<link href="css/bootstrap.min.css" rel="stylesheet">
 
+		<!-- STYLE -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
     	<link href="css/main.css" rel="stylesheet">
 	</head>
-
 	<body>
 		<?php include("navbar.php"); ?>
 		

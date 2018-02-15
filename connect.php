@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
+$servername = "192.168.2.10";
 $username = "root";
-$password = "";
+$password = "root";
 $dbname = "polcern";
 
 // Create connection
