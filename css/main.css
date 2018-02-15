@@ -1,0 +1,17 @@
+body{
+	background-color: #edf0f2;
+}
+.bgimg-1{
+  background-image: url('../img/bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 640px;
+  background-attachment: fixed;
+}
+.text-logo{
+	color: white;
+}
+.text-motto{
+	color:white;
+}
