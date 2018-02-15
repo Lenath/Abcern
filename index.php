@@ -49,6 +49,42 @@
 				<div class="container">
 				<h1 class="h-light">NASZ ZESPÓŁ</h1>
 				<hr>
+					<div class="row">
+						<div class="col team">
+							<img src="img/avatar.png" class="team-img">
+							<div>
+								Jan Kowalski
+								<hr>
+								CEO<br>
+								tel. 999 888 777<br>
+								e-mail jankowalski@polcern.pl
+
+							</div>
+						</div>
+						<div class="col team">
+							<img src="img/avatar.png" class="team-img">
+							<div>
+								Andrzej Kowalski
+								<hr>
+								CFO<br>
+								tel. 888 777 666<br>
+								e-mail andrzejkowalski@polcern.pl
+
+							</div>
+						</div>
+						<div class="col team">
+							<img src="img/avatar.png" class="team-img">
+							<div>
+								Anna Kowalska
+								<hr>
+								CIO<br>
+								tel. 777 666 555<br>
+								e-mail annakowalska@polcern.pl
+
+							</div>
+						</div>
+						
+					</div>
 				</div>
 			</div>
 			

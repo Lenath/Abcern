@@ -16,7 +16,6 @@ body{
   	background-position: center;
   	min-height: 640px;
   	background-color: black;
-  	filter:brightness(0.4);
   	
 }
 .text-logo{
@@ -39,3 +38,16 @@ h1{
 	color:white;
 	filter:brightness(1.0);
 }
+.team{
+	background-color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+.team-img{
+	position: center;
+	width:100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
