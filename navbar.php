@@ -14,7 +14,7 @@
 	              <a class="nav-link" href="projects.php">Projekty</a>
 	            </li>
 	            <li class="nav-item">
-	              <a class="nav-link" href="#">Praca</a>
+	              <a class="nav-link" href="work.php">Kariera</a>
 	            </li>
 	            <li class="nav-item">
 	              <a class="nav-link" href="#">Kontakt</a>
