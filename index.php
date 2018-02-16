@@ -14,7 +14,7 @@
 				<div style="display: table; height: 600px; overflow: hidden;">
 	              <div style="display: table-cell; vertical-align: middle; padding-left: 50px;">
 	                <div class="text-logo">
-	                  <b>Polcern Sp. z o. o.</b>
+	                  <b>Polcern Sp. z o.o.</b>
 	                </div>
 	                <div class="text-motto">
 	                  tutaj będzie motto firmy
@@ -24,7 +24,7 @@
 			</div>
 		</div>
 		<section id="about">
-			<div class="container">
+			<div class="container space">
 				<h1>O NAS</h1>
 				<hr>
 				<div>
@@ -44,14 +44,14 @@
 				</div>
 			</div>
 			<div class="bgimg-2">
-				<div class="container">
+				<div class="container space">
 				<h1 class="h-light">NASZ ZESPÓŁ</h1>
-				<hr>
+				<hr color="white">
 					<div class="row">
 						<div class="col team">
 							<img src="img/avatar.png" class="team-img">
 							<div>
-								Jan Kowalski
+								<b>Jan Kowalski</b>
 								<hr>
 								CEO<br>
 								tel. 999 888 777<br>
@@ -62,7 +62,7 @@
 						<div class="col team">
 							<img src="img/avatar.png" class="team-img">
 							<div>
-								Andrzej Kowalski
+								<b>Andrzej Kowalski</b>
 								<hr>
 								CFO<br>
 								tel. 888 777 666<br>
@@ -73,7 +73,7 @@
 						<div class="col team">
 							<img src="img/avatar.png" class="team-img">
 							<div>
-								Anna Kowalska
+								<b>Anna Kowalska</b>
 								<hr>
 								CIO<br>
 								tel. 777 666 555<br>
