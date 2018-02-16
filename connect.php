@@ -21,6 +21,12 @@ function get_page($col, $table, $conn){
     return $row;
 }
 
+function get_staff($conn){
+    $sql = "SELECT * FROM staff";
+    $result = $conn->query($sql);
+    return $result;
+}
+
 function update_main($h1, $h1p1, $h1p2, $h21, $h21p, $h22, $h22p, $h23, $h23p, $conn){
     $sql = "UPDATE main
     SET h1 = '$h1', h1p1 = '$h1p1', h1p2 = '$h1p2', h21 = '$h21', h21p = '$h21p', h22 ='$h22', h22p = '$h22p', h23 = '$h23', h23p= '$h23p'";
