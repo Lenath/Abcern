@@ -17,7 +17,7 @@
 	              <a class="nav-link" href="work.php">Kariera</a>
 	            </li>
 	            <li class="nav-item">
-	              <a class="nav-link" href="#">Kontakt</a>
+	              <a class="nav-link" href="contact.php">Kontakt</a>
 				</li>
 			</ul>
 		</div>
