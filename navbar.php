@@ -11,7 +11,7 @@
 	              <a class="nav-link" href="index.php#about">O nas <span class="sr-only">(current)</span></a>
 	            </li>
 	            <li class="nav-item">
-	              <a class="nav-link" href="#">Projekty</a>
+	              <a class="nav-link" href="projects.php">Projekty</a>
 	            </li>
 	            <li class="nav-item">
 	              <a class="nav-link" href="#">Praca</a>
