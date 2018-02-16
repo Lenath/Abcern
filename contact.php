@@ -10,16 +10,29 @@
 		<?php include("navbar.php"); ?>
 		
 		<div class="container space">
-				<h1>KONTAKT</h1>
-				<hr>
-		</div>
-
-		<div class="container" id="contact" name="contact">
-			<div class="row">
-				<br>
-				<!-- MAPKA GOOGLA -->
-				<div id="map"></div>
+			<h1>KONTAKT</h1>
+			<hr>
+			<p>
+			<b>Siedziba główna</b><br>
+			ul. Królowej Jadwigi 1<br>
+			Budynek Estra, 2 piętro<br>
+			30-109 Kraków<br>
+			</p>
+			<p>
+			tel. +48 12 111 22 33<br>
+			fax. +48 12 111 22 33<br>
+			</p>
+			<p class="blue-h">
+			office@abcern.pl
+			</p>
+			<div class="container" id="contact" name="contact">
+				<div class="row">
+					<br>
+					<!-- MAPKA GOOGLA -->
+					<div id="map"></div>
+				</div>
 			</div>
+
 		</div>
 
 		<!-- ZAŁĄCZENIE STOPKI I SKRYPTÓW -->

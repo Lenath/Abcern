@@ -31,7 +31,7 @@
 				<div class="row advantages-block">
 					<div class="col">
 						<i class="fa fa-briefcase fa-5x"></i><br>
-						Elastyczne zatrudnienie <br>
+						Elastyczne zatrudnienie<br>
 						Elastyczna forma zatrudnienia i ścieżka kariery dostosowana do Twoich potrzeb
 					</div>
 					<div class="col">
