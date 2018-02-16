@@ -52,8 +52,8 @@ h1{
 	margin-bottom: 15px;
 }
 .space{
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 90px;
+	padding-bottom: 90px;
 }
 .project-img{
 	width: 100%;
@@ -67,7 +67,6 @@ h1{
 	left: 0;
 	bottom: 0;
 	display: none;
-	text-align: center;
 }
 .thumbnail{
 		position: relative;
