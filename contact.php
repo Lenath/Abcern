@@ -29,7 +29,7 @@
 					      <input type="checkbox"> Nie jestem robotem
 					    </label>
 					  </div>
-					  <button type="submit" class="btn btn-default" style="float: right;">Wyślij</button>
+					  <button type="submit" class="btn btn-default btn-primary" style="float:right;);">Wyślij</button>
 					</form>
 				</div>			
 				<div class="col">
