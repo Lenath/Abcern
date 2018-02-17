@@ -1,7 +1,7 @@
 <!-- POŁĄCZENIE Z BAZĄ -->
 <?php include("connect.php"); ?>
 <!-- POBIERANIE DANYCH Z BAZY -->
-<?php $res = get_page("*", "main", $conn); ?>
+<?php $res = get_page("*", "contact", $conn); ?>
 <!DOCTYPE html>
 <html lang="pl">
 <?php include("head.php"); ?>
@@ -17,7 +17,7 @@
 					<form role="form">
 					  <div class="form-group">
 					    <label class="sr-only" for="nameandsurname">Imię i nazwisko</label>
-					    <input type="email" class="form-control" id="nameandsurname" placeholder="Imię i nazwisko">
+					    <input type="text" class="form-control" id="nameandsurname" placeholder="Imię i nazwisko">
 					  </div>
 					  <div class="form-group">
 					    <label class="sr-only" for="exampleInputEmail2">adres email</label>
@@ -35,16 +35,22 @@
 				<div class="col">
 					<p>
 					<b>Siedziba główna</b><br>
+						<!--<?php echo $res["c_adress1"];?><br>-->
 					ul. Królowej Jadwigi 1<br>
+						<!--<?php echo $res["c_adress2"];?><br>-->
 					Budynek Estra, 2 piętro<br>
+						<!--<?php echo $res["c_adress3"];?><br>-->
 					30-109 Kraków<br>
 					</p>
 					<p>
-					tel. +48 12 111 22 33<br>
-					fax. +48 12 111 22 33<br>
+						<!--tel. <?php echo $res["c_tel"];?><br>-->
+						tel. +48 12 111 22 33<br>
+						<!--fax. <?php echo $res["c_fax"];?><br>-->
+						fax. +48 12 111 22 33--><br>
 					</p>
 					<p class="blue-h">
-					office@abcern.pl
+						<!--<?php echo $res["c_email"];?>-->
+						office@abcern.pl
 					</p>
 				</div>
 			</div>
@@ -62,7 +68,7 @@
 		<?php include("footer.php"); ?>
 		<script>
 			function initMap() {
-				var uluru = {lat: 50.0550132, lng: 19.9076992};
+				var uluru = {lat: <?php echo $res["c_x"];?>, lng: <?php echo $res["c_y"];?>};
 				var map = new google.maps.Map(document.getElementById('map'), {
 					zoom: 14,
 					center: uluru
