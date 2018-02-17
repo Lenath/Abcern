@@ -37,7 +37,7 @@
 					<div class="col">
 						<i class="fa fa-graduation-cap fa-5x"></i><br>
 						Podnosimy kompetencje <br>
-						Cykliczne szkolwnia, wewnętrzna wymiana wiedzy i doświadczeń 
+						Cykliczne szkolenia, wewnętrzna wymiana wiedzy i doświadczeń 
 
 					</div>
 					<div class="col">
