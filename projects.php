@@ -1,7 +1,10 @@
 <!-- POŁĄCZENIE Z BAZĄ -->
 <?php include("connect.php"); ?>
 <!-- POBIERANIE DANYCH Z BAZY -->
-<?php $res = get_all($conn, "project"); ?>
+<?php
+	$res = get_page("*", "projects", $conn);
+	$res1 = get_all($conn, "project");
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <?php include("head.php"); ?>
@@ -14,8 +17,8 @@
 			<hr>
 			<!--
 			<?php
-			for ($i = 0; $i<$res->num_rows; $i++) {
-				$row = $res->fetch_assoc();
+			for ($i = 0; $i<$res1->num_rows; $i++) {
+				$row = $res1->fetch_assoc();
 				if($i % 2 == 0)
 					echo "<div class=\"row\">";
 				echo 	"<div class=\"col col-p thumbnail\">".
