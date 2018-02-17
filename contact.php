@@ -12,13 +12,24 @@
 		<div class="container space">
 			<h1>KONTAKT</h1>
 			<hr>
-			<div class="row">
+			<div class="row" style="padding-bottom: 15px;">
 				<div class="col">
-					<form action="mailto:przykladowy_adres@mail.pl" method="post">
-						<label>Imię i nazwisko</label> <input type="text" name="imieinazwisko" /><br>
-						<label>Email</label> <input type="text" name="email" /><br>
-						<textarea name="texarea">Wiadomość</textarea><br>
-						<input type="submit" value="Wyślij" />
+					<form role="form">
+					  <div class="form-group">
+					    <label class="sr-only" for="nameandsurname">Imię i nazwisko</label>
+					    <input type="email" class="form-control" id="nameandsurname" placeholder="Imię i nazwisko">
+					  </div>
+					  <div class="form-group">
+					    <label class="sr-only" for="exampleInputEmail2">adres email</label>
+					    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email">
+					  </div>
+					  <textarea class="form-control" rows="3">Wiadomość</textarea>
+					  <div class="checkbox">
+					    <label>
+					      <input type="checkbox"> Nie jestem robotem
+					    </label>
+					  </div>
+					  <button type="submit" class="btn btn-default" style="float: right;">Wyślij</button>
 					</form>
 				</div>			
 				<div class="col">
