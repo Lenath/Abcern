@@ -31,23 +31,23 @@
 				<div class="row advantages-block">
 					<div class="col">
 						<i class="fa fa-briefcase fa-5x"></i><br>
-						Elastyczne zatrudnienie<br>
+						<b>Elastyczne zatrudnienie</b><br>
 						Elastyczna forma zatrudnienia i ścieżka kariery dostosowana do Twoich potrzeb
 					</div>
 					<div class="col">
 						<i class="fa fa-graduation-cap fa-5x"></i><br>
-						Podnosimy kompetencje <br>
+						<b>Podnosimy kompetencje</b> <br>
 						Cykliczne szkolenia, wewnętrzna wymiana wiedzy i doświadczeń 
 
 					</div>
 					<div class="col">
 						<i class="fa fa-heart-o fa-5x"></i><br>
-						Dbamy o zdrowie <br>
+						<b>Dbamy o zdrowie</b> <br>
 						Karta Multisport oraz kilka pakietów prywatnej opieki medycznej
 					</div>
 					<div class="col">
 						<i class="fa fa-globe fa-5x"></i><br>
-						Globalne Know-How <br>
+						<b>Globalne Know-How</b> <br>
 						Zdobyte dzięki wdrożeniom w Polsce i za granicą
 					</div>
 				</div>

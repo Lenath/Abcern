@@ -12,19 +12,31 @@
 		<div class="container space">
 			<h1>KONTAKT</h1>
 			<hr>
-			<p>
-			<b>Siedziba główna</b><br>
-			ul. Królowej Jadwigi 1<br>
-			Budynek Estra, 2 piętro<br>
-			30-109 Kraków<br>
-			</p>
-			<p>
-			tel. +48 12 111 22 33<br>
-			fax. +48 12 111 22 33<br>
-			</p>
-			<p class="blue-h">
-			office@abcern.pl
-			</p>
+			<div class="row">
+				<div class="col">
+					<form action="mailto:przykladowy_adres@mail.pl" method="post">
+						<label>Imię i nazwisko</label> <input type="text" name="imieinazwisko" /><br>
+						<label>Email</label> <input type="text" name="email" /><br>
+						<textarea name="texarea">Wiadomość</textarea><br>
+						<input type="submit" value="Wyślij" />
+					</form>
+				</div>			
+				<div class="col">
+					<p>
+					<b>Siedziba główna</b><br>
+					ul. Królowej Jadwigi 1<br>
+					Budynek Estra, 2 piętro<br>
+					30-109 Kraków<br>
+					</p>
+					<p>
+					tel. +48 12 111 22 33<br>
+					fax. +48 12 111 22 33<br>
+					</p>
+					<p class="blue-h">
+					office@abcern.pl
+					</p>
+				</div>
+			</div>
 			<div class="container" id="contact" name="contact">
 				<div class="row">
 					<br>
