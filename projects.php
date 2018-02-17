@@ -20,9 +20,9 @@
 				if($i % 2 == 0)
 					echo "<div class=\"row\">";
 				echo 	"<div class=\"col col-p thumbnail\">".
-						"<a href=\"#".$row["p_link"].
-						"alt=\"".$row["p_name"]."\">".
-						"<img src=\"img/project/".$row["p_photo"]."\" class=\"project-img\"></a>".
+						"<a href=\"".$row["p_link"].
+						"\" alt=\"".$row["p_name"]."\">".
+						"<img src=\"img/project/".$row["p_photo"]."\" class=\"project-img\">".
 						"<div class=\"description\">".
 						"<table style=\"height: 100%; width: 100%;\">".
 						"<tbody>".
@@ -32,6 +32,7 @@
 						"</tbody>".
 						"</table>".
 						"</div>".
+						"</a>".
 						"</div>";
 				if($i % 2 == 1)
 					echo "</div>";
@@ -133,7 +134,7 @@
 					</div>
 								
 			</div>
-		
+
 		</div>
 		<!-- ZAŁĄCZENIE STOPKI I SKRYPTÓW -->
 		<?php include("footer.php"); ?>
