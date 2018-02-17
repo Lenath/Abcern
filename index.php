@@ -10,7 +10,7 @@
 	<?php include("navbar.php"); ?>
 	<div id="home" class="bgimg-1">
 		<div>
-			<div style="display: table; height: 600px; overflow: hidden;">
+			<div style="display: table; height: 94vh; overflow: hidden;">
 				<div style="display: table-cell; vertical-align: middle; padding-left: 50px;">
 					<!--NAZWA FIRMY-->
 					<div class="text-logo">
