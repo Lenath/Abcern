@@ -113,16 +113,27 @@
 		</section>
 		<!-- ZAŁĄCZENIE STOPKI I SKRYPTÓW -->
 		<?php include("footer.php"); ?>
+		<!-- przewijanie się strony-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script>
+		    $(document).ready(function() {
+		       $('a[href^="#"]').on('click', function(event) {
+	
+		var target = $( $(this).attr('href') );
+	
+			if( target.length ) {
+				event.preventDefault();
+				$('html, body').animate({
+					scrollTop: target.offset().top
+				}, 1000);
+			}
+		}); 	    
+		    });
+		</script>
 		<!-- ZAMKNIĘCIE POŁĄCZENIA Z BAZĄ -->
 		<?php mysqli_close($conn); ?>
 
-		<!-- przewijanie się strony-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    
-		<script>
-		    $(document).ready(function() {
-		        	    
-		    });
-		</script>
+		
+
 	</body>
 </html>
