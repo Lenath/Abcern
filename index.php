@@ -27,6 +27,9 @@
 				</div>
 			</div>
 		</div>
+		<div>
+			<center><i class="btn fa fa-toggle-down fa-2x icon"></i></center>
+		</div>
 	</div>
 	<section id="about">
 		<div class="container space">
