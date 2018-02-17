@@ -28,7 +28,11 @@
 			</div>
 		</div>
 		<div>
-			<center><i class="btn fa fa-toggle-down fa-2x icon"></i></center>
+			<center>
+				<a href="#about">
+					<i class="btn fa fa-toggle-down fa-2x icon"></i>
+				</a>
+			</center>
 		</div>
 	</div>
 	<section id="about">
