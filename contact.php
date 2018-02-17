@@ -46,7 +46,7 @@
 						<!--tel. <?php echo $res["c_tel"];?><br>-->
 						tel. +48 12 111 22 33<br>
 						<!--fax. <?php echo $res["c_fax"];?><br>-->
-						fax. +48 12 111 22 33--><br>
+						fax. +48 12 111 22 33<br>
 					</p>
 					<p class="blue-h">
 						<!--<?php echo $res["c_email"];?>-->
@@ -68,7 +68,8 @@
 		<?php include("footer.php"); ?>
 		<script>
 			function initMap() {
-				var uluru = {lat: <?php echo $res["c_x"];?>, lng: <?php echo $res["c_y"];?>};
+				/*var uluru = {lat: <?php echo $res["c_x"];?>, lng: <?php echo $res["c_y"];?>};*/
+				var uluru = {lat: 50.0550132, lng: 19.9076992};
 				var map = new google.maps.Map(document.getElementById('map'), {
 					zoom: 14,
 					center: uluru
