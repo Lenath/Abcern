@@ -1,5 +1,7 @@
 <head>
     <!-- TYTUŁ STRONY -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><?php echo $res["title"]; ?></title>
     <!-- OPIS STRONY -->
     <meta name="description" content="<?php echo $res["description"]; ?>">
