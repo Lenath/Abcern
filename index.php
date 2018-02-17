@@ -28,7 +28,11 @@
 			</div>
 		</div>
 		<div>
-			<center><i class="btn fa fa-toggle-down fa-2x icon"></i></center>
+			<center>
+				<a href="#about" id="top">
+					<i class="btn fa fa-toggle-down fa-2x icon"></i>
+				</a>
+			</center>
 		</div>
 	</div>
 	<section id="about">
@@ -111,5 +115,14 @@
 		<?php include("footer.php"); ?>
 		<!-- ZAMKNIĘCIE POŁĄCZENIA Z BAZĄ -->
 		<?php mysqli_close($conn); ?>
+
+		<!-- przewijanie się strony-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    
+		<script>
+		    $(document).ready(function() {
+		        	    
+		    });
+		</script>
 	</body>
 </html>

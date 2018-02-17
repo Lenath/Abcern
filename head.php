@@ -14,4 +14,22 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <!-- IKONY -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Jquerry do scrollowania-->
+    <script>
+    $(document).ready(function() { 
+ 
+    $('a[href^="#"]').on('click', function(event) {
+    
+        var target = $( $(this).attr('href') );
+    
+        if( target.length ) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: target.offset().top
+            }, 1000);
+        }
+    });
+ });
+</script>
 </head>

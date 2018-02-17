@@ -7,7 +7,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 640px;
+  height: 100vh;
   background-attachment: fixed;
 }
 .bgimg-2{
@@ -121,5 +121,4 @@ h1{
 }
 .icon{
 	color: white; 
-	padding-bottom: 15px; 
 }
