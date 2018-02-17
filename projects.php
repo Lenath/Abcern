@@ -1,7 +1,7 @@
 <!-- POŁĄCZENIE Z BAZĄ -->
 <?php include("connect.php"); ?>
 <!-- POBIERANIE DANYCH Z BAZY -->
-<?php $res = get_page("*", "main", $conn); ?>
+<?php $res = get_all($conn, "project"); ?>
 <!DOCTYPE html>
 <html lang="pl">
 <?php include("head.php"); ?>
@@ -14,7 +14,6 @@
 			<hr>
 			<!--
 			<?php
-			$res = get_all($conn, "project");
 			for ($i = 0; $i<$res->num_rows; $i++) {
 				$row = $res->fetch_assoc();
 				if($i % 2 == 0)

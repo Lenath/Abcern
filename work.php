@@ -1,7 +1,11 @@
 <!-- POŁĄCZENIE Z BAZĄ -->
 <?php include("connect.php"); ?>
 <!-- POBIERANIE DANYCH Z BAZY -->
-<?php $res = get_page("*", "main", $conn); ?>
+<?php
+	$res1 = get_page("*", "work", $conn);
+	$res2 = get_all($conn, "job");
+	$res3 = get_all($conn, "offers");
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <?php include("head.php"); ?>
@@ -13,11 +17,23 @@
 				<h1>KARIERA</h1>
 				<hr>
 		<p>
-			 Chcesz zdobyć wiedzę z zakresu prowadzenia projektów w takich obszarach jak telco, finanse, application services oraz przy naszych flagowych produktach? <br>
-			 Obecnie poszukujemy osób na stanowiska:
+			<!--
+			<?php echo $res1["w_description"]; ?>
+			-->
+			Chcesz zdobyć wiedzę z zakresu prowadzenia projektów w takich obszarach jak telco, finanse,
+			application services oraz przy naszych flagowych produktach? <br>
+			Obecnie poszukujemy osób na stanowiska:
 		</p>
 		<p>
 			 <b>
+				 <!--
+				 <?php
+				 for ($i = 0; $i<$res2->num_rows; $i++) {
+				 $row = $res2->fetch_assoc();
+					 echo "- ".$row["j_name"]." <a href=\"".$row["j_link"]."\">link</a><br>";
+				 }
+				 ?>
+				 -->
 			 - Junior HR Support <a href="#">link</a><br>
 			 - Senior Business Analyst <a href="#">link</a><br>
 			 - Planning Manager <a href="#">link</a><br>
@@ -29,6 +45,19 @@
 				<h1>OFERUJEMY</h1>
 				<hr><br>
 				<div class="row advantages-block">
+					<!--
+					<?php
+					for ($i = 0; $i<$res3->num_rows; $i++) {
+					$row = $res3->fetch_assoc();
+					echo "<div class=\"col\">".
+						"<i class=\"fa ".$row["o_logo"]." fa-5x\"></i><br>".
+						"<b>".$row["o_name"]."</b><br>".
+							$row["o_description"].
+						"</div>";
+					}
+					?>
+					-->
+
 					<div class="col">
 						<i class="fa fa-briefcase fa-5x"></i><br>
 						<b>Elastyczne zatrudnienie</b><br>
@@ -50,6 +79,7 @@
 						<b>Globalne Know-How</b> <br>
 						Zdobyte dzięki wdrożeniom w Polsce i za granicą
 					</div>
+					
 				</div>
 			</div>
 		</div>
