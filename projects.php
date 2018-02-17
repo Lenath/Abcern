@@ -12,7 +12,7 @@
 	<body>
 		<?php include("navbar.php"); ?>
 		
-		<div class="container space">
+		<div class="container space min-height">
 			<h1>PROJEKTY</h1>
 			<hr>
 			<!--

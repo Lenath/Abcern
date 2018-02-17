@@ -122,3 +122,6 @@ h1{
 .icon{
 	color: white; 
 }
+.min-height{
+	min-height: 100vh;
+}

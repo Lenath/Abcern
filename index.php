@@ -29,13 +29,13 @@
 		</div>
 		<div>
 			<center>
-				<a href="#about1" id="top">
+				<a href="#about" id="top">
 					<i class="btn fa fa-toggle-down fa-2x icon"></i>
 				</a>
 			</center>
 		</div>
 	</div>
-	<section id="about1">
+	<section id="about">
 		<div class="container space">
 			<h1>O NAS</h1>
 			<hr>
