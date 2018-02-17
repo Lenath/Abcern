@@ -10,9 +10,37 @@
 		<?php include("navbar.php"); ?>
 		
 		<div class="container space">
-				<h1>PROJEKTY</h1>
-				<hr>
+			<h1>PROJEKTY</h1>
+			<hr>
+			<!--
+			<?php
+			$res = get_all($conn, "project");
+			for ($i = 0; $i<$res->num_rows; $i++) {
+				$row = $res->fetch_assoc();
+				if($i % 2 == 0)
+					echo "<div class=\"row\">";
+				echo 	"<div class=\"col col-p thumbnail\">".
+						"<a href=\"#".$row["p_link"].
+						"alt=\"".$row["p_name"]."\">".
+						"<img src=\"img/project/".$row["p_photo"]."\" class=\"project-img\"></a>".
+						"<div class=\"description\">".
+						"<table style=\"height: 100%; width: 100%;\">".
+						"<tbody>".
+						"<tr>".
+						"<td class=\"align-middle\" style=\"text-align: center;\">".$row["p_name"]."</td>".
+						"</tr>".
+						"</tbody>".
+						"</table>".
+						"</div>".
+						"</div>";
+				if($i % 2 == 1)
+					echo "</div>";
+			}
+			?>
+			-->
+
 			<div class="row">
+
 					<div class="col col-p thumbnail">
 						<a href="#" alt=""><img src="img/project/p1.jpg" class="project-img"></a>
 						<div class="description">
@@ -93,8 +121,8 @@
 					</div>
 						
 			</div>
+		
 		</div>
-
 		<!-- ZAŁĄCZENIE STOPKI I SKRYPTÓW -->
 		<?php include("footer.php"); ?>
 		<!-- ZAMKNIĘCIE POŁĄCZENIA Z BAZĄ -->

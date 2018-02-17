@@ -21,8 +21,8 @@ function get_page($col, $table, $conn){
     return $row;
 }
 
-function get_staff($conn){
-    $sql = "SELECT * FROM staff";
+function get_all($conn, $t_name){
+    $sql = "SELECT * FROM $t_name";
     $result = $conn->query($sql);
     return $result;
 }

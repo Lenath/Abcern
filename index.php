@@ -54,7 +54,7 @@
 				<div class="row">
 					<!--
 					<?php
-					$res = get_staff($conn);
+					$res = get_all($conn, "staff");
 					for ($i = 0; $i<$res->num_rows; $i++) {
 						$row = $res->fetch_assoc();
 						echo 	"<div class=\"col team\">".
