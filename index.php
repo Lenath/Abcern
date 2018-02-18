@@ -6,8 +6,8 @@
 <html lang="pl">
 <?php include("head.php"); ?>
 <body>
-	<!-- ZAŁĄCZENIE PASKA NAWIGACYJNEGO -->
-	<?php include("navbar.php"); ?>
+<!-- ZAŁĄCZENIE PASKA NAWIGACYJNEGO -->
+<?php include("navbar.php"); ?>
 	<div id="home" class="bgimg-1">
 		<div>
 			<div style="display: table; height: 94vh; overflow: hidden;">
@@ -152,13 +152,9 @@
 		</script>
 		<!-- ZAMKNIĘCIE POŁĄCZENIA Z BAZĄ -->
 		<?php mysqli_close($conn); ?>
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://getbootstrap.com/assets/js/vendor/popper.min.js"></script>
 		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script type="text/javascript" src="js/slick.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript">	
 			$(document).ready(function(){
 			  $('.responsive').slick({
@@ -197,7 +193,6 @@
 				  ]
 				});
 			});
-
 		</script>
-	</body>
+</body>
 </html>
