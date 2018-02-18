@@ -86,6 +86,7 @@
 		</div>
 		<!-- ZAŁĄCZENIE STOPKI I SKRYPTÓW -->
 		<?php include("footer.php"); ?>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<!-- ZAMKNIĘCIE POŁĄCZENIA Z BAZĄ -->
 		<?php mysqli_close($conn); ?>
 	</body>

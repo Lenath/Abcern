@@ -83,6 +83,7 @@
 		<script async defer
 				src="https://maps.googleapis.com/maps/api/js?key= AIzaSyB-ijRGhGramaD76XH5bAhBVfjxlWmkCto&callback=initMap">
 		</script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<!-- ZAMKNIĘCIE POŁĄCZENIA Z BAZĄ -->
 		<?php mysqli_close($conn); ?>
 	</body>
