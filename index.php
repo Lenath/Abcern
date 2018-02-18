@@ -133,7 +133,6 @@
 		</section>
 		<!-- ZAŁĄCZENIE STOPKI I SKRYPTÓW -->
 		<?php include("footer.php"); ?>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script type="text/javascript" src="js/scroll_down.js"></script>
 		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
