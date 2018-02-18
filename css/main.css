@@ -2,6 +2,10 @@ body{
 	background-color: #edf0f2;
 	font-family: 'Roboto Condensed', sans-serif;
 }
+footer{
+	font-family: arial;
+	font-size: 12px;
+}
 .bgimg-1{
   background-image: url('../img/background/bg1.jpg');
   background-repeat: no-repeat;
