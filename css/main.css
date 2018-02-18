@@ -125,3 +125,9 @@ h1{
 .min-height{
 	min-height: 100vh;
 }
+.wizytowka{
+	margin: 0px 20px; 
+	padding: 0px 20px 10px 20px; 
+	background-color: white; 
+	text-align: center;
+}

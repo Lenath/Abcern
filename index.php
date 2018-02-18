@@ -58,7 +58,6 @@
 			<div class="container space">
 				<h1 class="h-light">NASZ ZESPÓŁ</h1>
 				<hr color="white">
-				<div class="row">
 					<!--
 					<?php
 					$res = get_all($conn, "staff");
@@ -76,35 +75,56 @@
 								"</div>";
 					}
 					?>
-					-->
-					<div class="col team">
+					-->	
+				<div class="responsive" style="margin: 0px 15px;">
+					<div class="wizytowka">
 						<img src="img/staff/avatar.png" class="team-img">
 						<div>
-							<b>Andrzej Kowalski</b>
+							<b>Andrzej Kowalski1</b>
 							<hr>
 							CFO<br>
 							tel. 888 777 666<br>
 							e-mail andrzejkowalski@abcern.pl
 						</div>
 					</div>
-					<div class="col team">
+					<div class="wizytowka">
 						<img src="img/staff/avatar.png" class="team-img">
 						<div>
-							<b>Jan Kowalski</b>
+							<b>Andrzej Kowalski2</b>
 							<hr>
-							CEO<br>
-							tel. 999 888 777<br>
-							e-mail jankowalski@abcern.pl
+							CFO<br>
+							tel. 888 777 666<br>
+							e-mail andrzejkowalski@abcern.pl
 						</div>
 					</div>
-					<div class="col team">
+					<div class="wizytowka">
 						<img src="img/staff/avatar.png" class="team-img">
 						<div>
-							<b>Anna Kowalska</b>
+							<b>Andrzej Kowalski3</b>
 							<hr>
-							CIO<br>
-							tel. 777 666 555<br>
-							e-mail annakowalska@abcern.pl
+							CFO<br>
+							tel. 888 777 666<br>
+							e-mail andrzejkowalski@abcern.pl
+						</div>
+					</div>
+					<div class="wizytowka">
+						<img src="img/staff/avatar.png" class="team-img">
+						<div>
+							<b>Andrzej Kowalski4</b>
+							<hr>
+							CFO<br>
+							tel. 888 777 666<br>
+							e-mail andrzejkowalski@abcern.pl
+						</div>
+					</div>
+					<div class="wizytowka">
+						<img src="img/staff/avatar.png" class="team-img">
+						<div>
+							<b>Andrzej Kowalski5</b>
+							<hr>
+							CFO<br>
+							tel. 888 777 666<br>
+							e-mail andrzejkowalski@abcern.pl
 						</div>
 					</div>
 				</div>
@@ -132,7 +152,49 @@
 		</script>
 		<!-- ZAMKNIĘCIE POŁĄCZENIA Z BAZĄ -->
 		<?php mysqli_close($conn); ?>
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="slick/slick.min.js"></script>
+		<script type="text/javascript">	
+			$(document).ready(function(){
+			  $('.responsive').slick({
+				  dots: true,
+				  infinite: false,
+				  speed: 300,
+				  slidesToShow: 3,
+				  slidesToScroll: 1,
+				  responsive: [
+				    {
+				      breakpoint: 1024,
+				      settings: {
+				        slidesToShow: 3,
+				        slidesToScroll: 3,
+				        infinite: true,
+				        dots: true
+				      }
+				    },
+				    {
+				      breakpoint: 600,
+				      settings: {
+				        slidesToShow: 2,
+				        slidesToScroll: 2
+				      }
+				    },
+				    {
+				      breakpoint: 480,
+				      settings: {
+				        slidesToShow: 1,
+				        slidesToScroll: 1
+				      }
+				    }
+				    // You can unslick at a given breakpoint now by adding:
+				    // settings: "unslick"
+				    // instead of a settings object
+				  ]
+				});
+			});
 
+		</script>
 		
 
 	</body>
