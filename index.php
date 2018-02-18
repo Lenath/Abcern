@@ -133,66 +133,13 @@
 		</section>
 		<!-- ZAŁĄCZENIE STOPKI I SKRYPTÓW -->
 		<?php include("footer.php"); ?>
-		<!-- przewijanie się strony-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script>
-		    $(document).ready(function() {
-		       $('a[href^="#"]').on('click', function(event) {
-	
-		var target = $( $(this).attr('href') );
-	
-			if( target.length ) {
-				event.preventDefault();
-				$('html, body').animate({
-					scrollTop: target.offset().top
-				}, 1000);
-			}
-		}); 	    
-		    });
-		</script>
-		<!-- ZAMKNIĘCIE POŁĄCZENIA Z BAZĄ -->
-		<?php mysqli_close($conn); ?>
+		<script type="text/javascript" src="js/scroll_down.js"></script>
 		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script type="text/javascript" src="js/slick.min.js"></script>
-		<script type="text/javascript">	
-			$(document).ready(function(){
-			  $('.responsive').slick({
-				  dots: true,
-				  infinite: false,
-				  speed: 300,
-				  slidesToShow: 3,
-				  slidesToScroll: 1,
-				  responsive: [
-				    {
-				      breakpoint: 1024,
-				      settings: {
-				        slidesToShow: 3,
-				        slidesToScroll: 3,
-				        infinite: true,
-				        dots: true
-				      }
-				    },
-				    {
-				      breakpoint: 600,
-				      settings: {
-				        slidesToShow: 2,
-				        slidesToScroll: 2
-				      }
-				    },
-				    {
-				      breakpoint: 480,
-				      settings: {
-				        slidesToShow: 1,
-				        slidesToScroll: 1
-				      }
-				    }
-				    // You can unslick at a given breakpoint now by adding:
-				    // settings: "unslick"
-				    // instead of a settings object
-				  ]
-				});
-			});
-		</script>
+		<script type="text/javascript" src="js/slick_start.js"></script>
+		<!-- ZAMKNIĘCIE POŁĄCZENIA Z BAZĄ -->
+		<?php mysqli_close($conn); ?>
 </body>
 </html>
