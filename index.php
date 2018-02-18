@@ -58,12 +58,13 @@
 			<div class="container space">
 				<h1 class="h-light">NASZ ZESPÓŁ</h1>
 				<hr color="white">
+				<div class="responsive" style="margin: 0px 15px;">
 					<!--
 					<?php
 					$res = get_all($conn, "staff");
 					for ($i = 0; $i<$res->num_rows; $i++) {
 						$row = $res->fetch_assoc();
-						echo 	"<div class=\"col team\">".
+						echo 	"<div class=\"wizytowka\">".
 								"<img src=\"img/staff/".$row["s_photo"]."\" class=\"team-img\">".
 								"<div>".
 								"<b>".$row["s_name"]."</b>".
@@ -75,8 +76,7 @@
 								"</div>";
 					}
 					?>
-					-->	
-				<div class="responsive" style="margin: 0px 15px;">
+					-->
 					<div class="wizytowka">
 						<img src="img/staff/avatar.png" class="team-img">
 						<div>
