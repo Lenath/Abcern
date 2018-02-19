@@ -11,18 +11,18 @@
 	<div id="home" class="bgimg-1">
 		<div>
 			<div style="display: table; height: 94vh; overflow: hidden;">
-				<div style="display: table-cell; vertical-align: middle; padding-left: 50px;">
+				<div style="display: table-cell; vertical-align: middle;">
 					<!--NAZWA FIRMY-->
-					<div class="text-logo">
+					<div class="text-logo text-logo-tel">
 						<b>
 						<!--<?php echo $res["c_name"]; ?>-->
 						Abcern Sp. z o.o.
 						</b>
 	                </div>
 					  <!--MOTTO FIRMY-->
-	                <div class="text-motto">
+	                <div class="text-motto text-motto-tel">
 						<!--<?php echo $res["c_motto"]; ?>-->
-						tutaj będzie motto firmy
+						tutaj będzie motto firmy bo może być długie aż dotąd.
 	                </div>
 				</div>
 			</div>
