@@ -40,7 +40,7 @@
 		?>
 		-->
 		<div class="row">
-			<div class="col col-p thumbnail">
+			<div class="col-12 col-sm-6 col-p thumbnail">
 				<a href="#" alt="">
 					<img src="img/project/p1.jpg" class="project-img">
 					<div class="description">
@@ -54,7 +54,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col col-p thumbnail">
+			<div class="col-12 col-sm-6 col-p thumbnail">
 				<a href="#" alt="">
 					<img src="img/project/p2.jpg" class="project-img">
 					<div class="description">
@@ -70,7 +70,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col col-p thumbnail">
+			<div class="col-12 col-sm-6 col-p thumbnail">
 				<a href="#" alt="">
 					<img src="img/project/p3.jpg" class="project-img">
 					<div class="description">
@@ -84,7 +84,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col col-p thumbnail">
+			<div class="col-12 col-sm-6 col-p thumbnail">
 				<a href="#" alt="">
 					<img src="img/project/p4.jpg" class="project-img">
 					<div class="description">
@@ -100,7 +100,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col col-p thumbnail">
+			<div class="col-12 col-sm-6 col-p thumbnail">
 				<a href="#" alt="">
 					<img src="img/project/p5.jpg" class="project-img">
 					<div class="description">
@@ -114,7 +114,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col col-p thumbnail">
+			<div class="col-12 col-sm-6 col-p thumbnail">
 				<a href="#" alt="">
 					<img src="img/project/p6.jpg" class="project-img">
 					<div class="description">

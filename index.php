@@ -22,7 +22,7 @@
 					  <!--MOTTO FIRMY-->
 	                <div class="text-motto text-motto-tel">
 						<!--<?php echo $res["c_motto"]; ?>-->
-						tutaj będzie motto firmy bo może być długie aż dotąd.
+						tutaj będzie motto firmy długie max tyle xxxxxx.
 	                </div>
 				</div>
 			</div>
