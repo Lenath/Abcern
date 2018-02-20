@@ -11,26 +11,8 @@
 		<h1>KONTAKT</h1>
 		<hr>
 		<div class="row" style="padding-bottom: 15px;">
-			<div class="col">
-				<form role="form">
-					<div class="form-group">
-						<label class="sr-only" for="nameandsurname">Imię i nazwisko</label>
-					    <input type="text" class="form-control" id="nameandsurname" placeholder="Imię i nazwisko">
-					</div>
-					<div class="form-group">
-						<label class="sr-only" for="exampleInputEmail2">adres email</label>
-					    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email">
-					</div>
-					<textarea class="form-control" rows="3">Wiadomość</textarea>
-					<div class="checkbox">
-						<label>
-					      <input type="checkbox"> Nie jestem robotem
-					    </label>
-					  </div>
-					<button type="submit" class="btn btn-default btn-primary" style="float:right;);">Wyślij</button>
-				</form>
-			</div>
-			<div class="col">
+			
+			<div class="col-12 col-sm-6"">
 				<p>
 					<b>Siedziba główna</b><br>
 					<!--<?php echo $res["c_adress1"];?><br>-->
@@ -51,12 +33,25 @@
 					office@abcern.pl
 				</p>
 			</div>
-		</div>
-		<div class="container" id="contact" name="contact">
-			<div class="row">
-				<br>
-				<!-- MAPKA GOOGLA -->
-				<div id="map"></div>
+			<div class="col-12" id="map"></div>
+			<div class="col-12 col-sm-6 order-sm-first" style="padding-top: 15px;">
+				<form role="form">
+					<div class="form-group">
+						<label class="sr-only" for="nameandsurname">Imię i nazwisko</label>
+					    <input type="text" class="form-control" id="nameandsurname" placeholder="Imię i nazwisko">
+					</div>
+					<div class="form-group">
+						<label class="sr-only" for="exampleInputEmail2">adres email</label>
+					    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email">
+					</div>
+					<textarea class="form-control" rows="3">Wiadomość</textarea>
+					<div class="checkbox">
+						<label>
+					      <input type="checkbox"> Nie jestem robotem
+					    </label>
+					  </div>
+					<button type="submit" class="btn btn-default btn-primary" style="float:right;);">Wyślij</button>
+				</form>
 			</div>
 		</div>
 	</div>
