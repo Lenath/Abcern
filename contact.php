@@ -12,7 +12,7 @@
 		<hr>
 		<div class="row" style="padding-bottom: 15px;">
 			
-			<div class="col-12 col-sm-6"">
+			<div class="col-12 col-sm-6">
 				<p>
 					<b>Siedziba główna</b><br>
 					<!--<?php echo $res["c_adress1"];?><br>-->

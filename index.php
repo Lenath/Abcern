@@ -22,7 +22,7 @@
 					  <!--MOTTO FIRMY-->
 	                <div class="text-motto text-motto-tel">
 						<!--<?php echo $res["c_motto"]; ?>-->
-						tutaj będzie motto firmy długie max tyle xxxxxx.
+						tutaj będzie motto firmy.
 	                </div>
 				</div>
 			</div>
@@ -82,7 +82,7 @@
 						<div>
 							<b>Andrzej Kowalski1</b>
 							<hr>
-							CFO<br>
+							CEO<br>
 							tel. 888 777 666<br>
 							e-mail andrzejkowalski@abcern.pl
 						</div>
@@ -92,7 +92,7 @@
 						<div>
 							<b>Andrzej Kowalski2</b>
 							<hr>
-							CFO<br>
+							CEO<br>
 							tel. 888 777 666<br>
 							e-mail andrzejkowalski@abcern.pl
 						</div>
@@ -102,7 +102,7 @@
 						<div>
 							<b>Andrzej Kowalski3</b>
 							<hr>
-							CFO<br>
+							CIO<br>
 							tel. 888 777 666<br>
 							e-mail andrzejkowalski@abcern.pl
 						</div>
